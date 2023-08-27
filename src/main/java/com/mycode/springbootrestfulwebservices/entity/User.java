@@ -21,6 +21,8 @@ private long id;
 @Column(nullable = false)
 private String firstname;
 
+int id2=0;
+
 @Column(nullable = false)
 private String lastname;
 @Column(nullable = false,unique = true)
